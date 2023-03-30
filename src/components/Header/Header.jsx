@@ -3,12 +3,10 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='header'>
-            {/* <h1>Knowledge Cafe</h1>
-            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" /> */}
-            <div className="navbar bg-base-100">
+        <div className='header mx-12 '>
+            <div className="navbar bg-base-100 px-0">
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl">Knowledge Cafe</a>
+                    <a className="btn btn-ghost normal-case text-xl px-0">Knowledge Cafe</a>
                 </div>
                 <div className="flex-none gap-2">
                     <div className="dropdown dropdown-end">
