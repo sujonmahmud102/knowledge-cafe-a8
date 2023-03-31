@@ -13,25 +13,25 @@
         "author_name": "Mrs. Setara",
         "blog_title": "Is ChatGPT replace developers?",
         "blog_cover_img": "https://images.pexels.com/photos/16094040/pexels-photo-16094040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "author_img": "",
+        "author_img": "https://pfpmaker.com/_nuxt/img/demo-thumb-1.a2179ee.png",
         "read_time": 10,
         "publish_date": "Mar 15"
     },
     {
         "id": 3,
         "author_name": "Mina Mostofa",
-        "blog_title": "",
-        "blog_cover_img": "",
-        "author_img": "",
+        "blog_title": "Introduction to Web Development - Everything you need to know",
+        "blog_cover_img": "https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "author_img": "https://pfpmaker.com/_nuxt/img/demo-thumb-3.e3a4384.png",
         "read_time": 12,
         "publish_date": "Mar 16"
     },
     {
         "id": 4,
         "author_name": "Sujon Mahmud",
-        "blog_title": "",
-        "blog_cover_img": "",
-        "author_img": "",
+        "blog_title": "Do I want to be a web developer? How can I start?",
+        "blog_cover_img": "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "author_img": "https://pfpmaker.com/_nuxt/img/demo-thumb-2.32e1fcb.png",
         "read_time": 15,
         "publish_date": "Mar 17"
     }

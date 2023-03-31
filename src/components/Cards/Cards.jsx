@@ -12,7 +12,7 @@ const Cards = (props) => {
 
     return (
         <div>
-            <div className="card w-full bg-base-100 shadow-xl ">
+            <div className="card w-full bg-base-100 shadow-xl mb-3 ">
                 <figure><img src={blog_cover_img} alt="Blog Cover Image" /></figure>
                 <div className="card-body p-2">
                     <div className='author-and-bookmark flex justify-between items-center'>
