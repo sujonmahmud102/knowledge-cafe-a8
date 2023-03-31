@@ -5,6 +5,7 @@ import Bookmark from '../Bookmark/Bookmark';
 
 const Main = () => {
     const [data, setData] = useState([])
+    const [blog, setBlog] = useState([])
 
     useEffect(() => {
         fetch('/public/fakeDb.json')
@@ -13,7 +14,8 @@ const Main = () => {
     }, [])
 
     const handleBookmark = (data)=>{
-        console.log(data)
+        const newBlog = [...blog, data];
+        setBlog(newBlog);
     }
 
 
@@ -26,8 +28,8 @@ const Main = () => {
             </div>
             <div className="bookmark-container w-[40%]">
                 <div>
-                    <h2 className='spent-time'>Spent time on read : <span></span> min</h2>
-                    <Bookmark></Bookmark>
+                    <h2 className='spent-time'>Spent time on read :  min</h2>
+                    <Bookmark blogLength={blog.length}></Bookmark>
 
                 </div>
             </div>
