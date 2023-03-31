@@ -1,4 +1,3 @@
-
 import './Cards.css'
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,7 +10,6 @@ const Cards = (props) => {
     const {author_img, author_name, blog_cover_img, blog_title, publish_date, read_time}=props.data;
 
     return (
-        <div>
             <div className="card w-full bg-base-100 shadow-xl mb-3 ">
                 <figure><img src={blog_cover_img} alt="Blog Cover Image" /></figure>
                 <div className="card-body p-2">
@@ -37,8 +35,6 @@ const Cards = (props) => {
                     </div>
                 </div>
             </div>
-
-        </div>
     );
 };
 

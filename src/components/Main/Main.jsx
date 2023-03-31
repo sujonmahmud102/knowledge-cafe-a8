@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cards from '../Cards/Cards';
+import './Main.css'
+import Bookmark from '../Bookmark/Bookmark';
 
 const Main = () => {
     const [data, setData] = useState([])
@@ -18,8 +20,12 @@ const Main = () => {
                     data.map(singleData => <Cards key={singleData.id} data={singleData}></Cards>)
                 }
             </div>
-            <div className="bookmark-container w-[40%] bg-red-600">
-                <h2>bookmark</h2>
+            <div className="bookmark-container w-[40%]">
+                <div>
+                    <h2 className='spent-time'>Spent time on read : <span></span> min</h2>
+                    <Bookmark></Bookmark>
+
+                </div>
             </div>
         </div>
     );
