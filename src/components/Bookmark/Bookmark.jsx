@@ -2,8 +2,6 @@ import React from 'react';
 import './Bookmark.css'
 
 const Bookmark = (props) => {
-
-    console.log(props.blog)
     return (
         <div className='bookmark-blog'>
             <h2>Bookmarked Blogs : {props.blog.length} </h2>
