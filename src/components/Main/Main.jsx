@@ -29,7 +29,7 @@ const Main = () => {
             <div className="bookmark-container w-[40%]">
                 <div>
                     <h2 className='spent-time'>Spent time on read :  min</h2>
-                    <Bookmark blogLength={blog.length}></Bookmark>
+                    <Bookmark blog={blog}></Bookmark>
 
                 </div>
             </div>

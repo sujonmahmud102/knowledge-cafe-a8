@@ -2,12 +2,14 @@ import React from 'react';
 import './Bookmark.css'
 
 const Bookmark = (props) => {
-    console.log(props)
+
+    console.log(props.blog)
     return (
         <div className='bookmark-blog'>
-            <h2>Bookmarked Blogs : {props.blogLength} </h2>
-
-            <p className="blog-title">Master Microsoft Power Platform and Become an In-Demand!</p>
+            <h2>Bookmarked Blogs : {props.blog.length} </h2>
+            { props.blog?.map(singleData => <p className="blog-title">{singleData.blog_title}</p>) 
+            }
+            
         </div>
     );
 };
