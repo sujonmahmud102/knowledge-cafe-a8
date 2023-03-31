@@ -3,16 +3,16 @@
         "id": 1,
         "author_name": "Mr. Raju",
         "blog_title": "How to get your first job as a self-taught programmer",
-        "blog_cover_img": "",
-        "author_img": "",
+        "blog_cover_img": "https://images.pexels.com/photos/226232/pexels-photo-226232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "author_img": "https://pfpmaker.com/_nuxt/img/demo-thumb-2.32e1fcb.png",
         "read_time": 5,
         "publish_date": "Mar 14"
     },
     {
         "id": 2,
         "author_name": "Mrs. Setara",
-        "blog_title": "",
-        "blog_cover_img": "",
+        "blog_title": "Is ChatGPT replace developers?",
+        "blog_cover_img": "https://images.pexels.com/photos/16094040/pexels-photo-16094040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author_img": "",
         "read_time": 10,
         "publish_date": "Mar 15"
