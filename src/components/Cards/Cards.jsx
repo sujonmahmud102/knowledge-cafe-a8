@@ -33,7 +33,7 @@ const Cards = (props) => {
                 <div>
                     <h2 className="card-title font-bold text-3xl my-3">{blog_title}</h2>
                     <p className='tags'>#beginners #programming</p>
-                    <button onClick={()=>markRead(props.data)} className='btn-mark-as-read'>Mark as read</button>
+                    <button onClick={() => markRead(props.data)} className='btn-mark-as-read'>Mark as read</button>
                 </div>
             </div>
         </div>
