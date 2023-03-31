@@ -3,7 +3,7 @@ import Cards from '../Cards/Cards';
 
 const Main = () => {
     return (
-        <div className='main flex mx-12 gap-6'>
+        <div className='main flex mx-12 gap-6 my-8'>
             <div className="card-container w-[60%]">
                 <Cards></Cards>
             </div>  
