@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 
-.bookmark-time span:hover {
+.bookmark-time span:active {
     color: skyblue;
 }
 
@@ -52,12 +52,14 @@
     color: #6047EC;
     cursor: pointer;
 }
+.btn-mark-as-read:active{
+   background:  #49dac2;
+}
 
 @media screen and (max-width: 768px) {
     .name {
         font-size: 14px;
         color: #111111;
-
     }
 
     .date {
