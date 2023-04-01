@@ -6,7 +6,7 @@
         "blog_cover_img": "https://images.pexels.com/photos/226232/pexels-photo-226232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author_img": "https://pfpmaker.com/_nuxt/img/demo-thumb-2.32e1fcb.png",
         "read_time": 5,
-        "publish_date": "Mar 14"
+        "publish_date": "Mar 14 (4 Days ago)"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "blog_cover_img": "https://images.pexels.com/photos/16094040/pexels-photo-16094040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author_img": "https://pfpmaker.com/_nuxt/img/demo-thumb-1.a2179ee.png",
         "read_time": 10,
-        "publish_date": "Mar 15"
+        "publish_date": "Mar 14 (4 Days ago)"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "blog_cover_img": "https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author_img": "https://pfpmaker.com/_nuxt/img/demo-thumb-3.e3a4384.png",
         "read_time": 12,
-        "publish_date": "Mar 16"
+        "publish_date": "Mar 14 (4 Days ago)"
     },
     {
         "id": 4,
@@ -33,6 +33,6 @@
         "blog_cover_img": "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "author_img": "https://pfpmaker.com/_nuxt/img/demo-thumb-2.32e1fcb.png",
         "read_time": 15,
-        "publish_date": "Mar 17"
+        "publish_date": "Mar 14 (4 Days ago)"
     }
 ]

@@ -12,26 +12,21 @@ const Main = () => {
     const [readTime, setReadTime] = useState([])
 
     useEffect(() => {
-        fetch('/public/fakeDb.json')
+        fetch('fakeDb.json')
             .then(res => res.json())
             .then(data => setData(data))
     }, [])
 
     const handleBookmark = (data) => {
-
         const newBlog = [...blog, data];
         setBlog(newBlog);
-    
-        const blogId = blog.find(singleBlog =>{
-            console.log(singleBlog)
-            if(singleBlog.id === data.id){
-                toast.error ('You Have Already Bookmarked This Blog')
+
+        const blogId = blog.find(singleBlog => {
+            if (singleBlog.id === data.id) {
+                toast.error('You Have Already Bookmarked This Blog')
             }
         })
     }
-
-
-
 
     const markRead = (data) => {
         const newReadTime = [...readTime, data.read_time]
@@ -57,7 +52,7 @@ const Main = () => {
                     <h2 className='spent-time'>Spent time on read : {sum} mins</h2>
                     <Bookmark key={blog.id} blog={blog}></Bookmark>
                 </div>
-                
+
             </div>
         </div>
     );

@@ -4,12 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 
-
 const Cards = (props) => {
     const { author_img, author_name, blog_cover_img, blog_title, publish_date, read_time } = props.data;
     const handleBookmark = props.handleBookmark;
     const markRead = props.markRead;
-
 
     return (
         <div className="card w-full bg-base-100 shadow-xl mb-3 ">
@@ -21,7 +19,7 @@ const Cards = (props) => {
                             <img src={author_img} alt="" />
                         </div>
                         <div>
-                            <h3 className='name text-xl font-bold'>{author_name}</h3>
+                            <h3 className='name'>{author_name}</h3>
                             <p className='date'>{publish_date}</p>
                         </div>
 
@@ -31,7 +29,7 @@ const Cards = (props) => {
                     </div>
                 </div>
                 <div>
-                    <h2 className="card-title font-bold text-3xl my-3">{blog_title}</h2>
+                    <h2 className="blogTitle my-3">{blog_title}</h2>
                     <p className='tags'>#beginners #programming</p>
                     <button onClick={() => markRead(props.data)} className='btn-mark-as-read'>Mark as read</button>
                 </div>
